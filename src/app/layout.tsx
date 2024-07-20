@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Merriweather, Roboto, Inter } from 'next/font/google';
 import Providers from 'src/app/providers';
-import './globals.css';
+import './globals.scss';
 
 const merriweather = Merriweather({
   variable: '--merriweather-font',
